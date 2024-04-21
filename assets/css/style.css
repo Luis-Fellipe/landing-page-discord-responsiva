@@ -5,7 +5,7 @@ img {
 }
 
 #topo {
-    background-image: url('/assets/images/capa-grande-ds-up.png');
+    background-image: url('../images/capa.png');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 506px;
