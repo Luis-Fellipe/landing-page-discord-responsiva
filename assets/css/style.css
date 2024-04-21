@@ -1,0 +1,178 @@
+@import url(reset.css);
+
+img {
+    max-width: 100%;
+}
+
+#topo {
+    background-image: url('/assets/images/capa-grande-ds-up.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 506px;
+    background-position: 69.5%;
+}
+
+#topo header {
+    padding: 4.3125rem 4vw;
+}
+
+#topo header h1 {
+    width: 17.375rem;
+    font-family: "Luckiest Guy";
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+#topo header p {
+    color: white;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+#topo header .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#topo header .buttons button {
+    width: 100%;
+    height: 3.375rem;
+    border-radius: 38px;
+    border: none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#abrir-no-navegador {
+    background-color: #23272A;
+    color: white;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    padding: 0 4vw;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.containers section {
+    flex: auto;
+}
+
+.containers h1 {
+    margin-top: 1.6875rem;
+    margin-bottom: 1.6875rem;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #23272A;
+}
+
+.container-cinza  {
+    background-color: #F6F6F6;
+    padding: 2.5rem 4vw;
+}
+
+#conteiner-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conteiner-final h1 {
+    font-family: "Luckiest Guy";
+    font-size: 2rem;
+    color: #23272A;
+}
+
+#conteiner-final p {
+    margin-top: 1.6875rem;
+    margin-bottom: 1.6875rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23272A;
+    min-height: 140px;
+}
+
+@media screen and (max-width: 320px) {
+    #topo header h1 {
+        width: initial;
+    }
+}
+
+@media screen and (min-width: 540px) {
+
+    #topo header {
+        padding: 4.3125rem 15vw;
+    }
+
+    .containers {
+        align-items: center;
+        padding: 0 15vw;
+    }
+
+    .container-cinza  {
+        padding: 2.5rem 15vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #topo {
+        background-size: cover;
+        background-position: center;
+    }
+
+    #topo header {
+        padding: 5.875rem 4vw;
+    }
+
+    #topo header h1 {
+        width: 19.5625rem;
+        margin: auto;
+        font-size: 3.5rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    #topo header p {
+        width: 47.3125rem;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    #topo header .buttons  {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #topo header .buttons button {
+        width: auto;
+        padding: 0 1rem;
+    }
+
+    .containers {
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        padding: 0 10vw;
+    }
+
+    .containers section h1 {
+        font-size: 2.5rem;
+    }
+
+    #terceiro-bloco  {
+        flex-direction: row-reverse;
+        padding: 2.5rem 10vw;
+        align-items: center;
+    }
+}
