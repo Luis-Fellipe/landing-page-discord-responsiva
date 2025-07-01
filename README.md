@@ -1,15 +1,5 @@
 # Projeto CSS - Landing Page Responsiva
 
-## 📸 Prévia
-
-### Versão Desktop
-![Prévia do Projeto](assets/images/preview.png)
-> *Imagem ilustrativa da versão desktop do site.*
-
-### Versão Mobile
-![Prévia Mobile](assets/images/preview-cell.png)
-> *Imagem ilustrativa da versão para celulares.*
-
 ---
 
 ## 🧠 Sobre o Projeto
@@ -23,6 +13,22 @@ Este projeto faz parte da formação CSS da [Dio.me](https://www.dio.me/). A pro
 - Fontes externas do Google Fonts
 
 O destaque do projeto é a **adaptação do layout para dispositivos móveis**, alterando a estrutura de colunas para blocos verticais em telas menores, além de centralizar e redimensionar elementos importantes.
+
+---
+
+## 📸 Prévia
+
+### Versão Desktop
+![Prévia do Projeto](assets/images/preview.png)
+> *Imagem ilustrativa da versão desktop do site.*
+
+### Versão Mobile
+
+<p align="center">
+  <img src="assets/images/preview-cell.png" alt="Prévia Mobile" width="250px">
+</p>
+
+> *Imagem ilustrativa da versão para celulares.*
 
 ---
 
