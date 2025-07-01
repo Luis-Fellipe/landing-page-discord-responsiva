@@ -1,7 +1,5 @@
 # Projeto CSS - Landing Page Responsiva
 
----
-
 ## 🧠 Sobre o Projeto
 
 Este projeto faz parte da formação CSS da [Dio.me](https://www.dio.me/). A proposta foi criar uma **landing page responsiva**, inspirada no visual do Discord, praticando o uso de:
